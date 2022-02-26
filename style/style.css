@@ -1,0 +1,90 @@
+nav {
+    background-color: rgb(43, 163, 69);
+    height: 50px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav ul {
+    height: 50px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+.parent{
+    height: 900px;
+    width: 900px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    height: 449.5px;
+    width: 900px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.bottom{
+    height: 449.5px;
+    width: 900px;
+    /* border: 1px solid red; */
+
+}
+.top .left{
+height: 449.5px;
+width: 449px;
+/* border: 1px solid red; */
+background-color: aqua;
+}
+.top .right{
+height: 449.5px;
+width: 449px;
+/* border: 1px solid red; */
+}
+.top .right .top{
+    height: 223px;
+    width: 449px;
+     border: 1px solid rgb(221, 199, 199); 
+    background-color: bisque;
+   display: block;
+}
+.top .right .bottom{
+    height: 223px;
+    width: 449px;
+     border: 1px solid rgb(30, 184, 76); 
+    background-color: rgb(31, 182, 64);
+}
+.top .left img{
+    height: 370px;
+    width: 448px;
+}
+
+.bottom img{
+    height: 449.5px;
+    width: 900px;
+}
+.last{
+    background-color: red;
+    height: 40px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.last h3{
+   text-align: center;
+   line-height: 40px;
+}
